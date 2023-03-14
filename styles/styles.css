@@ -59,6 +59,13 @@ margin: 0 auto;}
     font-size: 14px;
     line-height: 24px;
     color: #595959;}
+.code_link{
+    font-style: normal;
+    font-size: 14px;
+    font-weight;
+    line-height: 24px;
+    color: #1E2939;
+}
 .project_link {
     margin-left: 10px;}
 .project_braket{
@@ -132,7 +139,8 @@ margin: 0 auto;}
     margin-bottom: 50px;}
 .contacts,
 .tech_skills,
-.soft_skills{margin-left: 40px;}
+.soft_skills,
+.languages{margin-left: 40px;}
 .contacts{margin-bottom: 50px;}
 .tech_skills{margin-bottom: 45px;}
 .contact_type{
@@ -154,19 +162,19 @@ margin: 0 auto;}
     Weight 700 Size 22px 
     Line height 27px
     margin-bottom: 10px;}
-.tech_skills_list{
-    color: #FFFFFF;
-    padding: 0;
-    margin-left: 20px;}
-.soft_skills_list{
+.tech_skills_list,
+.soft_skills_list,
+.languages_list{
     color: #FFFFFF;
     padding: 0;
     margin-left: 20px;}
 .tech_skills_item,
-.soft_skills_item{
+.soft_skills_item,
+.languages_item{
     color: #FB6D3A;}
 .tech_list_text,
-.soft_skills_text{
+.soft_skills_text,
+.languages_text{
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
