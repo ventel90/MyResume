@@ -15,8 +15,8 @@ margin: 0 auto;}
 .about_position{
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 20px;
+    line-height: 28px;
     color: #000000;
     margin-bottom: 20px;}
 .about_name{
@@ -25,15 +25,7 @@ margin: 0 auto;}
     font-size: 45px;
     line-height: 55px;
     color: #000000;
-    margin-bottom: 25px;}
-.about_discription{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;  
-    color: #595959;
-    width: 400px}
-    /* project styles */
+    margin-bottom: 15px;}
 .projects{
     margin-bottom: 50px;}
 .title {
@@ -44,52 +36,31 @@ margin: 0 auto;}
     color: #000000;
     margin-bottom: 10px;}
 .projects_list{
+    list-style: none;
     padding: 0;
     margin-left: 18px;}
 .project_item{
     font-style: normal;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 24px;
     color: #000000;}
-.project,
+
 .project_link{
     font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-    color: #595959;}
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FB6D3A;
+        margin-bottom: 10px;}
 .code_link{
+    text-decoration: none;
     font-style: normal;
-    font-size: 14px;
-    font-weight;
+    font-size: 20px;
+    font-weight: normal;
     line-height: 24px;
     color: #1E2939;
 }
-.project_link {
-    margin-left: 10px;}
-.project_braket{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 24px;
-    color: #000000;}
-    /* work styles */
-.work{margin-bottom: 45px; width: 550px}
-.work_position{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
-    color: #000000;
-    margin-bottom: 10px;}
-.organization{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
-    color: #FB6D3A;
-    margin-bottom: 10px;}
 .period{
     font-style: normal;
     font-weight: 400;
@@ -103,17 +74,11 @@ margin: 0 auto;}
     font-size: 12px;
     line-height: 15px;
     color: #000000;}
-.work_list, .education_list {
+.education_list {
+    list-style: none;
     padding: 0;
     margin-left: 18px;}
-.work_item{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    color: #595959;}
-    /* education styles */
-.education{}
+.project,
 .university{
     font-style: normal;
     font-weight: 700;
@@ -121,6 +86,8 @@ margin: 0 auto;}
     line-height: 20px;
     color: #FB6D3A;
     margin-bottom: 10px;}
+
+.about_project,
 .specialization{
     font-style: normal;
     font-weight: 700;
@@ -151,6 +118,7 @@ margin: 0 auto;}
     color: #FFFFFF;
     margin-right: 10px;}
 .contact_link{
+    margin-bottom: 0;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
