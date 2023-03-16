@@ -117,18 +117,22 @@ margin: 0 auto;}
     line-height: 24px;
     color: #FFFFFF;
     margin-right: 10px;}
+
 .contact_link{
+    text-decoration: none;
     margin-bottom: 0;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    color: #B4BBC5;
-    opacity: 0.5;}
+    color: white;
+    }
+
 .sidebar_title{
     color: #FFFFFF;
-    Weight 700 Size 22px 
-    Line height 27px
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
     margin-bottom: 10px;}
 .tech_skills_list,
 .soft_skills_list,
